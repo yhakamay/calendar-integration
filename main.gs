@@ -18,6 +18,4 @@ function main() {
   Logger.log(`Executed syncToday(). Refreshed calendar: ${refreshedCalendar}.`);
   refreshedCalendar = syncThisWeek();
   Logger.log(`Executed syncThisWeek(). Refreshed calendar: ${refreshedCalendar}.`);
-  // refreshedCalendar = syncThisMonth();
-  // Logger.log(`Executed syncThisMonth(). Refreshed calendar: ${refreshedCalendar}.`);
 }
